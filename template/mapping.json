@@ -7,7 +7,8 @@
       "protobuf_type": "bool",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullBool",
-      "swagger_type": "bool"
+      "swagger_type": "bool",
+      "swag_swagger_type": "bool"
     },
     {
       "sql_type": "bool",
@@ -16,7 +17,8 @@
       "protobuf_type": "bool",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullBool",
-      "swagger_type": "bool"
+      "swagger_type": "bool",
+      "swag_swagger_type": "bool"
     },
     {
       "sql_type": "tinyint",
@@ -25,7 +27,8 @@
       "protobuf_type": "int32",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt32",
-      "swagger_type": "int"
+      "swagger_type": "int",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "int",
@@ -34,7 +37,8 @@
       "protobuf_type": "int32",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt32",
-      "swagger_type": "int"
+      "swagger_type": "int",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "smallint",
@@ -44,7 +48,8 @@
       "protobuf_type": "int32",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt32",
-      "swagger_type": "int"
+      "swagger_type": "int",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "mediumint",
@@ -53,7 +58,8 @@
       "protobuf_type": "int32",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt32",
-      "swagger_type": "int"
+      "swagger_type": "int",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "int4",
@@ -62,7 +68,8 @@
       "protobuf_type": "int32",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt32",
-      "swagger_type": "int"
+      "swagger_type": "int",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "int2",
@@ -71,7 +78,8 @@
       "protobuf_type": "int32",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt32",
-      "swagger_type": "int"
+      "swagger_type": "int",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "integer",
@@ -80,7 +88,8 @@
       "protobuf_type": "int32",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt32",
-      "swagger_type": "int"
+      "swagger_type": "int",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "bigint",
@@ -89,7 +98,8 @@
       "protobuf_type": "int64",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt64",
-      "swagger_type": "int64"
+      "swagger_type": "int64",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "int8",
@@ -98,7 +108,8 @@
       "protobuf_type": "int64",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt64",
-      "swagger_type": "int64"
+      "swagger_type": "int64",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "char",
@@ -107,7 +118,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "enum",
@@ -116,7 +128,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "varchar",
@@ -125,7 +138,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "nvarchar",
@@ -134,7 +148,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "longtext",
@@ -143,7 +158,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "mediumtext",
@@ -152,7 +168,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "text",
@@ -161,7 +178,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "tinytext",
@@ -170,7 +188,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "varchar2",
@@ -179,7 +198,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "inet",
@@ -188,7 +208,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "json",
@@ -197,7 +218,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "jsonb",
@@ -206,7 +228,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "nchar",
@@ -215,7 +238,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "date",
@@ -224,7 +248,8 @@
       "protobuf_type": "google.protobuf.Timestamp",
       "guregu_type": "null.Time",
       "go_nullable_type": "time.Time",
-      "swagger_type": "time.Time"
+      "swagger_type": "time.Time",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "datetime2",
@@ -233,7 +258,8 @@
       "protobuf_type": "google.protobuf.Timestamp",
       "guregu_type": "null.Time",
       "go_nullable_type": "time.Time",
-      "swagger_type": "time.Time"
+      "swagger_type": "time.Time",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "datetime",
@@ -242,7 +268,8 @@
       "protobuf_type": "google.protobuf.Timestamp",
       "guregu_type": "null.Time",
       "go_nullable_type": "time.Time",
-      "swagger_type": "time.Time"
+      "swagger_type": "time.Time",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "time",
@@ -251,7 +278,8 @@
       "protobuf_type": "google.protobuf.Timestamp",
       "guregu_type": "null.Time",
       "go_nullable_type": "time.Time",
-      "swagger_type": "time.Time"
+      "swagger_type": "time.Time",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "timestamp",
@@ -260,7 +288,8 @@
       "protobuf_type": "uint64",
       "guregu_type": "null.Time",
       "go_nullable_type": "time.Time",
-      "swagger_type": "time.Time"
+      "swagger_type": "time.Time",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "timestamptz",
@@ -269,7 +298,8 @@
       "protobuf_type": "uint64",
       "guregu_type": "null.Time",
       "go_nullable_type": "time.Time",
-      "swagger_type": "time.Time"
+      "swagger_type": "time.Time",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "smalldatetime",
@@ -278,7 +308,8 @@
       "protobuf_type": "google.protobuf.Timestamp",
       "guregu_type": "null.Time",
       "go_nullable_type": "time.Time",
-      "swagger_type": "time.Time"
+      "swagger_type": "time.Time",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "decimal",
@@ -287,7 +318,8 @@
       "protobuf_type": "float",
       "guregu_type": "null.Float",
       "go_nullable_type": "sql.NullFloat64",
-      "swagger_type": "float64"
+      "swagger_type": "float64",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "double",
@@ -296,7 +328,8 @@
       "protobuf_type": "float",
       "guregu_type": "null.Float",
       "go_nullable_type": "sql.NullFloat64",
-      "swagger_type": "float64"
+      "swagger_type": "float64",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "money",
@@ -305,7 +338,8 @@
       "protobuf_type": "float",
       "guregu_type": "null.Float",
       "go_nullable_type": "sql.NullFloat64",
-      "swagger_type": "float64"
+      "swagger_type": "float64",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "real",
@@ -314,7 +348,8 @@
       "protobuf_type": "float",
       "guregu_type": "null.Float",
       "go_nullable_type": "sql.NullFloat64",
-      "swagger_type": "float64"
+      "swagger_type": "float64",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "float4",
@@ -323,7 +358,8 @@
       "protobuf_type": "float",
       "guregu_type": "null.Float",
       "go_nullable_type": "sql.NullFloat64",
-      "swagger_type": "float32"
+      "swagger_type": "float32",
+      "swag_swagger_type": "number"
     },
 
     {
@@ -333,7 +369,8 @@
       "protobuf_type": "float",
       "guregu_type": "null.Float",
       "go_nullable_type": "sql.NullFloat64",
-      "swagger_type": "float32"
+      "swagger_type": "float32",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "float8",
@@ -342,7 +379,8 @@
       "protobuf_type": "float",
       "guregu_type": "null.Float",
       "go_nullable_type": "sql.NullFloat64",
-      "swagger_type": "float64"
+      "swagger_type": "float64",
+      "swag_swagger_type": "number"
     },
 
     {
@@ -352,7 +390,8 @@
       "protobuf_type": "bytes",
       "guregu_type": "[]byte",
       "go_nullable_type": "[]byte",
-      "swagger_type": "[]byte"
+      "swagger_type": "[]byte",
+      "swag_swagger_type": ""
     },
     {
       "sql_type": "blob",
@@ -397,7 +436,8 @@
       "protobuf_type": "float",
       "guregu_type": "null.Float",
       "go_nullable_type": "sql.NullFloat64",
-      "swagger_type": "float64"
+      "swagger_type": "float64",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "bpchar",
@@ -406,7 +446,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "tsvector",
@@ -415,7 +456,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "_text",
@@ -424,7 +466,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "bytea",
@@ -433,7 +476,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "USER_DEFINED",
@@ -442,7 +486,8 @@
       "protobuf_type": "bytes",
       "guregu_type": "interface{}",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "uuid",
@@ -451,7 +496,8 @@
       "protobuf_type": "string",
       "guregu_type": "null.String",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "",
@@ -460,7 +506,8 @@
       "protobuf_type": "bytes",
       "guregu_type": "interface{}",
       "go_nullable_type": "sql.NullString",
-      "swagger_type": "string"
+      "swagger_type": "string",
+      "swag_swagger_type": "string"
     },
     {
       "sql_type": "utinyint",
@@ -469,7 +516,8 @@
       "protobuf_type": "uint32",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt64",
-      "swagger_type": "int"
+      "swagger_type": "int",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "usmallint",
@@ -478,7 +526,8 @@
       "protobuf_type": "uint32",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt64",
-      "swagger_type": "int"
+      "swagger_type": "int",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "umediumint",
@@ -487,7 +536,8 @@
       "protobuf_type": "uint32",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt64",
-      "swagger_type": "int"
+      "swagger_type": "int",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "uint",
@@ -496,7 +546,8 @@
       "protobuf_type": "uint32",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt64",
-      "swagger_type": "int"
+      "swagger_type": "int",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "ubigint",
@@ -505,7 +556,8 @@
       "protobuf_type": "uint64",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt64",
-      "swagger_type": "int64"
+      "swagger_type": "int64",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "udecimal",
@@ -514,7 +566,8 @@
       "protobuf_type": "float",
       "guregu_type": "null.Float",
       "go_nullable_type": "sql.NullFloat64",
-      "swagger_type": "float64"
+      "swagger_type": "float64",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "udouble",
@@ -523,7 +576,8 @@
       "protobuf_type": "float",
       "guregu_type": "null.Float",
       "go_nullable_type": "sql.NullFloat64",
-      "swagger_type": "float64"
+      "swagger_type": "float64",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "ufloat",
@@ -532,7 +586,8 @@
       "protobuf_type": "float",
       "guregu_type": "null.Float",
       "go_nullable_type": "sql.NullFloat64",
-      "swagger_type": "float32"
+      "swagger_type": "float32",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "smallserial",
@@ -543,7 +598,8 @@
       "protobuf_type": "int32",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt64",
-      "swagger_type": "int"
+      "swagger_type": "int",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "serial",
@@ -554,7 +610,8 @@
       "protobuf_type": "int32",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt64",
-      "swagger_type": "int"
+      "swagger_type": "int",
+      "swag_swagger_type": "number"
     },
     {
       "sql_type": "bigserial",
@@ -565,7 +622,8 @@
       "protobuf_type": "int32",
       "guregu_type": "null.Int",
       "go_nullable_type": "sql.NullInt64",
-      "swagger_type": "int"
+      "swagger_type": "int",
+      "swag_swagger_type": "number"
     }
   ]
 }

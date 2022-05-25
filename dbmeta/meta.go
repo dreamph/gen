@@ -58,6 +58,8 @@ type SQLMapping struct {
 
 	// SwaggerType mapped type
 	SwaggerType string `json:"swagger_type"`
+
+	SwagSwaggerType string `json:"swag_swagger_type"`
 }
 
 func (m *SQLMapping) String() interface{} {
@@ -298,6 +300,8 @@ type FieldInfo struct {
 	XMLAnnotation         string
 	DBAnnotation          string
 	GoGoMoreTags          string
+
+	SwaggerAnnotation string
 }
 
 // GetFunctionName get function name
@@ -360,6 +364,11 @@ func (c *Config) GenerateFieldsTypes(dbMeta DbTableMeta) ([]*FieldInfo, error) {
 
 		if c.AddDBAnnotation {
 			annotations = append(annotations, fi.DBAnnotation)
+		}
+
+		fi.SwaggerAnnotation = createSwaggerAnnotation(strings.ToLower(col.DatabaseTypeName()), col.Nullable(), c.UseGureguTypes)
+		if fi.SwaggerAnnotation != "" {
+			annotations = append(annotations, fi.SwaggerAnnotation)
 		}
 
 		gogoTags := []string{fi.GormAnnotation, fi.JSONAnnotation, fi.XMLAnnotation, fi.DBAnnotation}
@@ -478,6 +487,23 @@ func createProtobufAnnotation(nameFormat string, c ColumnMeta) (string, error) {
 	return "", fmt.Errorf("unknown sql name: %s", c.Name())
 }
 
+func createSwaggerAnnotation(sqlType string, nullable bool, gureguTypes bool) string {
+	mapping, err := SQLTypeToMapping(sqlType)
+	if err != nil {
+		return ""
+	}
+
+	if nullable && gureguTypes {
+		buf := bytes.Buffer{}
+		buf.WriteString("swaggertype:\"")
+		buf.WriteString(mapping.SwagSwaggerType)
+		buf.WriteString("\"")
+		return buf.String()
+	} else {
+		return ""
+	}
+}
+
 func createGormAnnotation(c ColumnMeta) string {
 	buf := bytes.Buffer{}
 
@@ -537,6 +563,9 @@ func BuildDefaultTableDDL(tableName string, cols []*columnMeta) string {
 // ProcessMappings process the json for mappings to load sql mappings
 func ProcessMappings(source string, mappingJsonstring []byte, verbose bool) error {
 	var mappings = &SQLMappings{}
+
+	//fmt.Println(string(mappingJsonstring))
+
 	err := json.Unmarshal(mappingJsonstring, mappings)
 	if err != nil {
 		fmt.Printf("Error unmarshalling json error: %v\n", err)
